@@ -1,0 +1,33 @@
+{
+  "name": "houdini-examples",
+  "version": "1.0.0",
+  "description": "some houdini demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test/*/*.test.js",
+    "start": "fastify start app.js",
+    "colada": "fastify start -l info -P app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maopy/houdini-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maopy/houdini-examples/issues"
+  },
+  "homepage": "https://github.com/Maopy/houdini-examples#readme",
+  "dependencies": {
+    "fastify": "^1.1.1",
+    "fastify-autoload": "^0.2.0",
+    "fastify-cli": "^0.13.0",
+    "fastify-plugin": "^0.2.2",
+    "fastify-static": "^0.8.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0",
+    "tap": "^11.1.2"
+  }
+}
