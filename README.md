@@ -11,5 +11,5 @@ some houdini demos
 
 | demo name | remark |
 | ------------- | ------------- |
-| [Circle](http://localhost:3000/public/paint-api/circle/index.html)] |   |
+| [Circle](http://localhost:3000/public/paint-api/circle/index.html) |   |
 |   |   |
